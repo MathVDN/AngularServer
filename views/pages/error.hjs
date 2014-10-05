@@ -1,0 +1,10 @@
+<div class="panel panel-standard">
+    <div class="panel-heading">
+        <h1>Erreur dans l'application</h1>
+    </div>
+    <div class="panel-body">
+        <h1>{{ message }}</h1>
+        <h2>{{ error.status }}</h2>
+        <pre>{{ error.stack }}</pre>
+    </div>
+</div>
